@@ -9,11 +9,14 @@
 /* .odd#third { 
     font-size: 24px;
 } */
-.odd.third {
+/* .odd.third {
+    font-size: 24px;
+} */
+.adjust-font-size{
     font-size: 24px;
 }
 #fourth {
     background-color: hsl(120, 100%, 75%);
-    font-size: 24px;
+    /* font-size: 24px; */
     font-weight: bold;
 }
