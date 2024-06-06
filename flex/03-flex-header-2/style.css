@@ -12,7 +12,24 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  padding: 10px;
 }
+
+.left {
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+}
+
+.right {
+  width: 300px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 
 .profile-image {
   background: rebeccapurple;
@@ -43,6 +60,9 @@ a {
   color: rebeccapurple;
 }
 
-ul {
+ul.links{
+  /* border: 1px solid black; */
   list-style-type: none;
+  display: flex;
+  gap: 20px;
 }
